@@ -34,3 +34,8 @@
 ![top plate](./images/sweep-compact-case/case_02.jpg)
 ![complete](./images/sweep-compact-case/complete.jpg)
 
+# QMK
+- setup my qmk fork as qmk home
+```bash
+qmk setup -H ~/Desktop/GithubProjects/my-mechanical-keyboard-journey/qmk_firmware
+```
