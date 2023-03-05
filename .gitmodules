@@ -4,3 +4,6 @@
 [submodule "zmk-config"]
 	path = zmk-config
 	url = git@github.com:muellerbernd/zmk-config.git
+[submodule "zmk"]
+	path = zmk
+	url = git@github.com:zmkfirmware/zmk.git
