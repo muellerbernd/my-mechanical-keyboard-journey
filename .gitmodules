@@ -6,4 +6,4 @@
 	url = git@github.com:muellerbernd/zmk-config.git
 [submodule "zmk"]
 	path = zmk
-	url = git@github.com:zmkfirmware/zmk.git
+	url = git@github.com:ftc/zmk.git
