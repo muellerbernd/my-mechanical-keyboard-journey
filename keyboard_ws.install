@@ -1,0 +1,4 @@
+- git: {local-name: qmk, uri: 'git@github.com:muellerbernd/qmk_firmware.git', version: 'master'}
+- git: {local-name: zmk-config, uri: 'git@github.com:muellerbernd/zmk-config.git', version: 'master'}
+- git: {local-name: zmk, uri: 'git@github.com:zmkfirmware/zmk.git', version: 'main'}
+
