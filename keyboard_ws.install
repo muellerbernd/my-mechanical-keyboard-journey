@@ -1,4 +1,11 @@
-- git: {local-name: qmk_firmware, uri: 'git@github.com:muellerbernd/qmk_firmware.git', version: 'master'}
-- git: {local-name: zmk-config, uri: 'git@github.com:muellerbernd/zmk-config.git', version: 'master'}
-# - git: {local-name: zmk, uri: 'git@github.com:zmkfirmware/zmk.git', version: 'main'}
-
+repositories:
+  qmk_firmware:
+    type: git
+    url: git@github.com:muellerbernd/qmk_firmware.git
+    # version: 'master'
+    version: legacy
+  zmk-config:
+    type: git
+    url: git@github.com:muellerbernd/zmk-config.git
+    version: master
+# vim: ft=yaml ts=2 sw=2:
