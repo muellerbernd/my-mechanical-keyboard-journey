@@ -2,8 +2,7 @@ repositories:
   qmk_firmware:
     type: git
     url: git@github.com:muellerbernd/qmk_firmware.git
-    # version: 'master'
-    version: legacy
+    version: 'develop'
   zmk-config:
     type: git
     url: git@github.com:muellerbernd/zmk-config.git
