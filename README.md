@@ -21,6 +21,20 @@
 
 ![custom-sweep](./images/custom-sweep/sweep02.jpg)
 
+## Custom handwired sweep like keyboard
+
+- improved version of [previous version](#custom-handwired-sweep-like-keyboard)
+- 3d printed
+- 34 key design + rotary encoders + Cirque Trackpad (TM040040)
+- resin printed keycaps [KLP-Lame](https://github.com/braindefender/KLP-Lame-Keycaps/)
+- handwired using [MxLEDBit Single Switch PCB](https://github.com/swanmatch/MxLEDBitPCB/blob/master/readme_en.md)
+- use of pro micro pcb from the same [repo](https://github.com/swanmatch/MxLEDBitPCB/blob/master/readme_en.md)
+- things can be found in [`things/custom-sweep-improved`](./things/custom-sweep-improved)
+- design files on onshape [public onshape link](https://cad.onshape.com/documents/c39efbb0285907792fbd659b/w/f5a2fc229ac2faaccfa66b6b/e/30fdf6b4c4e752c1efd029ab?renderMode=0&uiState=675ab7a0961883296693085c)
+
+![custom-sweep-improved](./images/custom-sweep-improved/sweep_improved.jpg)
+
+
 ## case for ferris sweep (ben vallack version)
 
 - this is a snap in case design for the [Ferris-Sweep-Tweaked](https://github.com/benvallack/Ferris-Sweep-Tweaked) by benvallack
@@ -61,4 +75,6 @@ make muellerbernd/ferris/sweep:bernd:dfu-split-right
 # handwired sweep
 qmk flash -kb muellerbernd/sweep -km bernd-kb2040 -bl uf2-split-left
 
+# handwired sweep with Cirque Trackpad
+make muellerbernd/sweep:bernd-kb2040-cirque:uf2-split-right
 ```
