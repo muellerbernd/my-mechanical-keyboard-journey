@@ -34,7 +34,6 @@
 
 ![custom-sweep-improved](./images/custom-sweep-improved/sweep_improved.jpg)
 
-
 ## case for ferris sweep (ben vallack version)
 
 - this is a snap in case design for the [Ferris-Sweep-Tweaked](https://github.com/benvallack/Ferris-Sweep-Tweaked) by benvallack
@@ -47,6 +46,44 @@
 ![bottom case](./images/sweep-compact-case/case_01.jpg)
 ![top plate](./images/sweep-compact-case/case_02.jpg)
 ![complete](./images/sweep-compact-case/complete.jpg)
+
+## Bento macro pad remix
+
+Remix of [Bento Mechanical Keyboard Macropad](https://www.printables.com/model/451164-bento-mechanical-keyboard-macropad) with a custom bottom plate.
+
+### Wiring
+
+- handwired using [MxLEDBit Single Switch PCB](https://github.com/swanmatch/MxLEDBitPCB/blob/master/readme_en.md)
+- using [KB2040](https://www.adafruit.com/product/5302) as MCU
+
+![pro micro pinout](./images/pro_micro_pinout.jpg)
+
+```json
+"cols": ["B6", "B2", "B3"],
+"rows": ["D7", "E6"]
+```
+
+- cols:
+  - wire 1 col to D10
+  - wire 2 col to MO
+  - wire 3 col to MI
+- rows:
+  - wire 1 row to 6
+  - wire 2 row to 7
+- compare with [KB2040 pinout](https://cdn-learn.adafruit.com/assets/assets/000/106/984/medium800/adafruit_products_Adafruit_KB2040_Pinout.png?1638564074)
+
+- [ ] add image of wiring
+
+### STLs
+
+- [ ] add STLs
+
+### flashing
+
+```bash
+make muellerbernd/bento/rev1:default:uf2-split-right
+
+```
 
 # QMK
 
