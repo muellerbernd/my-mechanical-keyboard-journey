@@ -76,13 +76,12 @@ Remix of [Bento Mechanical Keyboard Macropad](https://www.printables.com/model/4
 
 ### STLs
 
-- [ ] add STLs
+can be found in [./things/bento-remix/](./things/bento-remix/)
 
 ### flashing
 
 ```bash
 make muellerbernd/bento/rev1:default:uf2-split-right
-
 ```
 
 # QMK
