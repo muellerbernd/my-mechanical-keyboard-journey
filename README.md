@@ -82,6 +82,8 @@ can be found in [./things/bento-remix/](./things/bento-remix/)
 
 ```bash
 make muellerbernd/bento/rev1:default:uf2-split-right
+# or
+qmk flash -kb muellerbernd/bento/rev1 -km default
 ```
 
 # QMK
