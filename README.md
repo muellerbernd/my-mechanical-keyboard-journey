@@ -59,14 +59,14 @@ Remix of [Bento Mechanical Keyboard Macropad](https://www.printables.com/model/4
 ![pro micro pinout](./images/pro_micro_pinout.jpg)
 
 ```json
-"cols": ["B6", "B2", "B3"],
+"cols": ["B3", "B2", "B6"],
 "rows": ["D7", "E6"]
 ```
 
 - cols:
-  - wire 1 col to D10
+  - wire 1 col to MI
   - wire 2 col to MO
-  - wire 3 col to MI
+  - wire 3 col to D10
 - rows:
   - wire 1 row to 6
   - wire 2 row to 7
