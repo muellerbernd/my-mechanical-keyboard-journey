@@ -55,6 +55,7 @@ Remix of [Bento Mechanical Keyboard Macropad](https://www.printables.com/model/4
 
 - handwired using [MxLEDBit Single Switch PCB](https://github.com/swanmatch/MxLEDBitPCB/blob/master/readme_en.md)
 - using [KB2040](https://www.adafruit.com/product/5302) as MCU
+- [pinout KB2040](https://learn.adafruit.com/assets/106984)
 
 ![pro micro pinout](./images/pro_micro_pinout.jpg)
 
