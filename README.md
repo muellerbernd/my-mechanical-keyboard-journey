@@ -114,5 +114,5 @@ make muellerbernd/ferris/sweep:bernd:dfu-split-right
 qmk flash -kb muellerbernd/sweep -km bernd-kb2040 -bl uf2-split-left
 
 # handwired sweep with Cirque Trackpad
-make muellerbernd/sweep:bernd-kb2040-cirque:uf2-split-right
+make muellerbernd/sweep_cirque:bernd-kb2040-cirque:uf2-split-right
 ```
